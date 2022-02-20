@@ -1,0 +1,55 @@
+#backgroundc{
+	background-color: lightgray; 
+	border: 2px solid black;  
+	margin-bottom: 15px;    
+	margin-left: 15px;
+	margin-right: 15px;
+    width: auto;
+    height: auto;
+}
+
+div  h2 {
+	text-align: center;
+	margin-top: 0px;
+}
+
+div  p { margin-top: -10px;
+	margin-left: 10px;
+}
+
+#header-nav {
+	background-color: lightgray; 
+	border-radius: 0;
+	border-bottom: 2px solid black;   
+}
+
+.navbar-brand h1{
+	text-align: left;color: black;
+	margin-top: 0px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+ 
+
+*{
+	 font-family: 'Comic Neue', cursive;;
+}
+
+#nav-list a {
+  color: black; 
+  text-align: center;
+  font-size: 1.5em;
+}
+  
+#nav-list a:hover {
+  background: #E7E7E7;
+}  
+
+@media (min-width: 768px){
+    #nav-list { 
+    	display: none; 
+    }
+
+} 
